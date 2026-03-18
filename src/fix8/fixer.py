@@ -33,7 +33,6 @@ def apply_patches(file, patches):
                     current = current[:idx_column] + current[idx_column+1:]
 
             elif action == "add_line":
-                # Se char for número (ex: E302 precisa de 2), insere essa quantidade
                 num_lines = char if isinstance(char, int) else 1
                 for _ in range(num_lines):
                     lines.insert(idx_line, "\n")
