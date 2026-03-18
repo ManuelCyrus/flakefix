@@ -1,6 +1,6 @@
 # fix8
 
-**Version:** `0.1.0`  
+**Version:** `0.1.1`  
 
 **fix8** is an automated tool designed to detect and fix common **Flake8 / PEP8** style issues in Python projects. It automatically handles spacing, trailing whitespace, blank lines, and other common formatting problems.
 
